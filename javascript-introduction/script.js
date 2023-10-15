@@ -14,11 +14,11 @@
 
 // Contoh sederhana Array
 let pemain = ['ronaldo', 'messi', 'mbappe', 'neymar']
-console.log(pemain[0])
-console.log(pemain[3])
+console.log(pemain[0]) // output: ronaldo
+console.log(pemain[3]) // output: neymar
 // Contoh manipulasi indeks array
 pemain[2] = 'maradona'
-console.log(pemain[2])
+console.log(pemain[2]) // array pemain akan menjadi ['ronaldo', 'messi', 'maradona', 'neymar']
 
 // ## Control Flow
 // Dalam JavaScript mengacu pada cara pernyataan dan blok kode dieksekusi dalam program JavaScript kita. 
@@ -34,7 +34,7 @@ console.log(pemain[2])
 
 // Contoh if, else if
 let usia = prompt("masukkan usia anda") // Prompt untuk input
-usia = parseInt(usia)
+usia = parseInt(usia) // mengubah input usia menjadi int
 
 if (usia < 18) {
   console.log ('anda masih di bawah umur')
